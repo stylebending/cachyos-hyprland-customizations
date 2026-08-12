@@ -1,7 +1,6 @@
 # CachyOS Hyprland customizations
 
-The files I changed from the default CachyOS Hyprland install. Drop-in
-overrides on top of the stock `/etc/skel` config.
+The files I changed from the default CachyOS Hyprland install.
 
 > Everything else uses the stock CachyOS defaults — repo contains only the
 > files I actually edited.
@@ -11,7 +10,7 @@ overrides on top of the stock `/etc/skel` config.
 - `hypr/config/binds.lua` — Hyprland keybindings (noctalia + UWSM aware)
 - `hypr/config/variables.lua` — default apps, monitors, workspaces
 - `kitty/kitty.conf` — opacity, padding, keymap
-- `kitty/themes/noctalia.conf` — kitty color theme (`include`d by kitty.conf)
+- `kitty/themes/noctalia.conf` — kitty color theme (`included` by kitty.conf)
 
 ## Install
 
