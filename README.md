@@ -7,6 +7,7 @@ The files I changed from the default CachyOS Hyprland install.
 
 ## What's here
 
+- `etc/polkit-1/rules.d/51-systemd-transient.rules` — permission fix for sync between desktop and lock screen wallpaper
 - `hypr/config/binds.lua` — Hyprland keybindings (noctalia + UWSM aware)
 - `hypr/config/variables.lua` — default apps, monitors, workspaces
 - `kitty/kitty.conf` — opacity, padding, keymap
@@ -18,6 +19,9 @@ The layout mirrors the real config paths so you can copy straight over the
 stock CachyOS defaults:
 
 ```bash
+# polkit
+sudo cp etc/polkit-1/rules.d/51-systemd-transient.rules /etc/polkit-1/rules.d/51-systemd-transient.rules
+
 # Hyprland
 cp hypr/config/binds.lua     ~/.config/hypr/config/
 cp hypr/config/variables.lua ~/.config/hypr/config/
